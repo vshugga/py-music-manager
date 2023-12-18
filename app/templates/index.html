@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" http-equiv="content-type" content="width=device-width; text/html; charset=UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('main.static_dir', filename='css/main.css')}}"/>
+  </head>
+  <body>
+    TEST SUCCESS
+    <img style="width:100px" src="/test/static/img/test.png">
+    {% block form %}
+    {% endblock %}
+  </body>
+</html>
